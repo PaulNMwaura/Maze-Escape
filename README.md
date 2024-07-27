@@ -47,7 +47,7 @@ The maze file should be formatted as follows:
 ## Installation
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/mouse-maze.git
+git clone https://github.com/PaulNMwaura/Mouse-Maze-Escape.git
 cd Mouse-Maze
 ```
 2. Build the program using the provided Makefile:  
