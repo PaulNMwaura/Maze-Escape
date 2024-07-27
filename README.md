@@ -18,12 +18,12 @@ The maze is represented by a file passed as the argument.
 ## Maze File Format
 The maze file should be formatted as follows:  
     - The first line of the file contains  
-        • [<rows>]: Number of rows in the maze.  
-        • [<cols>]: Number of columns in the maze.  
-        • [<full_char>]: Character representing walls ('*').  
-        • [<path_char>]: Character representing the path ('o').  
-        • [<entry_char>]: Character representing the entry point ('1').  
-        • [<exit_char>]: Character representing the exit point ('2').  
+        • [rows]: Number of rows in the maze.  
+        • [cols]: Number of columns in the maze.  
+        • [full_char]: Character representing walls ('*').  
+        • [path_char]: Character representing the path ('o').  
+        • [entry_char]: Character representing the entry point ('1').  
+        • [exit_char]: Character representing the exit point ('2').  
     - Followed by the Maze grid  
 ```
 <rows>x<cols> <full_char> <path_char> <entry_char> <exit_char>
@@ -63,9 +63,9 @@ If the map is not formatted correctly, "MAP ERROR" will be printed out.
 
 Run the program with the following command:
 ```
-./my_mouse [<file_with_maze>]
+./my_mouse [file_with_maze]
 ```
-Replace [<file_with_maze>] with the path to your maze file.  
+Replace [file_with_maze] with the path to your maze file.  
 
 ### The Core Team
 <span><i>This project was built in collaboration between Selcuk Aksoy and Paul Mwaura</i></span>
