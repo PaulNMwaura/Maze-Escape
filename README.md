@@ -1,7 +1,9 @@
-# Mouse-Maze
+# Maze Escape
+
+## Overview
 Mouse-Maze is a C program designed to read a maze from a file, identify the starting and exit coordinates, and find and display the shortest path between them by utilizing the BFS algorithm as well as backtracking.
 
-# How it works
+## How it works
 First the program reads the maze from a file and into a 2d matrix.
 It then traverses the maze to find the entry and exit coordinates.
 It creates a queue and traverses the maze starting from the entry point, each time checking for empty coordinates that may lead to our exit coordinate.
